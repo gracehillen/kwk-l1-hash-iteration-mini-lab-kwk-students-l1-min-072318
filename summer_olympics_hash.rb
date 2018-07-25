@@ -10,7 +10,7 @@ end
 puts add_a_key_value_pair
 
 def iterate_through_hash
-  shopping_hash.each do |x,y|
+  summer_olympics.each do |x,y|
   puts "The price of #{x} is $#{y}."
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
