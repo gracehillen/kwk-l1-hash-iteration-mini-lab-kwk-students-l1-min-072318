@@ -5,13 +5,15 @@ end
 puts create_olympics_hash
 
 def add_a_key_value_pair
-  summer_olympics[:Atlanta] = "1996"
+  new_hash=create_olympics_hash
+  new_hash[:Atlanta] = "1996"
+  new_hash
 end
 puts add_a_key_value_pair
 
 def iterate_through_hash
-  summer_olympics.each do |x,y|
-  puts "The #{x} summer olympics took place in #{y}"
+  summer_olympics.each do |key,value|
+  puts "The #{key} summer olympics took place in #{value}"
 end
 
 def iterate_through_keys
