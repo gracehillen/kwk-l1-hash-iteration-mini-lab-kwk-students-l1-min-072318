@@ -15,5 +15,5 @@ def iterate_through_hash
   summer_olympics.each do |key,value|
   puts "The #{key} summer olympics took place in #{value}"
 end
-
+end
 
